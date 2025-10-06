@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard,
-  Flask,
+  Beaker,
   FolderOpen,
   LineChart,
   BarChart3,
@@ -21,7 +21,7 @@ const menuItems = [
   {
     title: '实验管理',
     href: '/experiments',
-    icon: Flask,
+    icon: Beaker,
   },
   {
     title: '文件管理',

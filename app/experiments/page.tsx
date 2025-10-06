@@ -35,7 +35,7 @@ export default function ExperimentsPage() {
           </CardHeader>
           <CardContent>
             <div className="flex h-[400px] items-center justify-center text-muted-foreground">
-              暂无实验记录，点击"创建实验"开始
+              暂无实验记录，点击「创建实验」开始
             </div>
           </CardContent>
         </Card>

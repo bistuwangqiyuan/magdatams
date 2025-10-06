@@ -53,8 +53,16 @@
   * {
     @apply border-border;
   }
+  
+  html {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground min-h-screen;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }

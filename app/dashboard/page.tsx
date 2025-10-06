@@ -6,14 +6,14 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Flask, FileText, Upload, AlertTriangle } from 'lucide-react';
+import { Beaker, FileText, Upload, AlertTriangle } from 'lucide-react';
 
 export default function DashboardPage() {
   const stats = [
     {
       title: '总实验数',
       value: '0',
-      icon: Flask,
+      icon: Beaker,
       description: '全部实验记录',
       color: 'text-blue-500',
     },

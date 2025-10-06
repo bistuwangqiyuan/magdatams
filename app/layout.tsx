@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: '磁检测数据管理系统',
   description: '专业的磁检测数据管理、可视化和分析平台',
   keywords: ['磁检测', '无损检测', '数据管理', '数据可视化'],
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
